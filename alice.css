@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,600');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    background-image: url(img/zen.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position-x: 25%;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+h2,
+h3 {
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 20px 60px 5px 60px;
+}
+
+p {
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding: 5px 60px;
+}
+
+header {
+    padding: 40px 50px;
+    background-image: url(img/huntington.jpg);
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.summary {
+    padding-top: 10px;
+}
+
+.explanation > p:nth-child(3) {
+    padding-bottom: 20px;
+}
+
+.participation,
+.benefits {
+    background-image: url(img/bamboo.png);
+    background-color: rgba(32, 99, 79, 0.548);
+    color: rgb(255, 255, 255);
+}
+
+.benefits {
+    padding-bottom: 15px;
+}
+
+.requirements > p:nth-child(5) {
+    padding-bottom: 50px;
+}
+
+p[role='contentinfo'] {
+    padding: 60px 40px;
+    background-image: url(img/koi.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+
+p[role='contentinfo'] > a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(21, 39, 30);
+    font-size: 50px;
+    text-align: center;
+    height: 100px;
+}
+
+.fab {
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+footer > a {
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar {
+    width: 100%;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+
+.design-selection {
+    background-color: rgba(207, 236, 222, 0.356);
+    font-size: 10px;
+    text-align: center;
+}
+
+.design-selection > h3 {
+    display: none;
+}
+
+.design-selection > nav > ul {
+    padding: 0;
+    overflow: auto;
+}
+
+.design-selection > nav > ul > li {
+    margin-bottom: 30px;
+    border-bottom: 0.1px solid rgb(124, 124, 124);
+    width: 50%;
+    float: left;
+    margin-bottom: 0;
+    padding: 50px 0px;
+    color: black;
+}
+
+.archives {
+    display: none;
+}
+
+.designer-name {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.design-archives {
+    background-color: rgba(207, 236, 222, 0.356);
+    font-size: 10px;
+    text-align: center;
+}
+
+.design-archives > nav > ul {
+    padding: 0;
+    overflow: auto;
+}
+.design-archives > nav > ul > li {
+    margin-bottom: 30px;
+    border-bottom: 0.1px solid rgb(124, 124, 124);
+    width: 50%;
+    float: left;
+    margin-bottom: 0;
+    padding: 50px 0px;
+}
+
+.desgin-name {
+    text-decoration: none;
+}
+
+.zen-resources {
+    column-count: 2;
+    width: 100%;
+    background-image: url(img/bamboo.png);
+    background-color: rgba(32, 99, 79, 0.548);
+    line-height: 50px;
+    text-align: center;
+    font-size: 10px;
+}
+
+.zen-resources > h3 {
+    display: none;
+}
